@@ -15,4 +15,7 @@
 
 //= require angular
 //= require angular-resource
-//= require_tree .
+
+//= require angular-tut/app.module.js
+//= require angular-tut/phone-list/phone-list.module.js
+//= require angular-tut/phone-list/phone-list.component.js
