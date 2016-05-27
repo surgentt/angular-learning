@@ -19,6 +19,10 @@
 
 //= require angular-tut/app.module.js
 //= require angular-tut/app.config.js
+
+//= require angular-tut/core/core.module.js
+//= require angular-tut/core/checkmark/checkmark.filter.js
+
 //= require angular-tut/phone-list/phone-list.module.js
 //= require angular-tut/phone-list/phone-list.component.js
 //= require angular-tut/phone-detail/phone-detail.module.js
