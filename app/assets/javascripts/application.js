@@ -15,7 +15,11 @@
 
 //= require angular
 //= require angular-resource
+//= require angular-route
 
 //= require angular-tut/app.module.js
+//= require angular-tut/app.config.js
 //= require angular-tut/phone-list/phone-list.module.js
 //= require angular-tut/phone-list/phone-list.component.js
+//= require angular-tut/phone-detail/phone-detail.module.js
+//= require angular-tut/phone-detail/phone-detail.component.js
