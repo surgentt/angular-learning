@@ -16,12 +16,17 @@
 //= require angular
 //= require angular-resource
 //= require angular-route
+//= require angular-animate
 
 //= require angular-tut/app.module.js
 //= require angular-tut/app.config.js
 
 //= require angular-tut/core/core.module.js
 //= require angular-tut/core/checkmark/checkmark.filter.js
+
+
+//= require angular-tut/core/phone/phone.module.js
+//= require angular-tut/core/phone/phone.service.js
 
 //= require angular-tut/phone-list/phone-list.module.js
 //= require angular-tut/phone-list/phone-list.component.js

@@ -1,2 +1,2 @@
 // Define the `phoneDetail` module
-angular.module('phoneDetail', []);
+angular.module('phoneDetail', ['core.phone']);

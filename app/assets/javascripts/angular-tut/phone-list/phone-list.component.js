@@ -4,14 +4,17 @@ angular.
   module('phoneList').
   component('phoneList', {
     templateUrl: 'templates/phone-list.html',
-    controller: ['$http',
-      function PhoneListController($http) {
+    controller: ['Phone',
+      function PhoneListController(Phone) {
         var self = this;
         this.orderProp = 'age';
 
-        $http.get('phones/phones.json').then(function (response) {
-          self.phones = response.data.slice(0, 5);
-        });
+        // by including the phone query resource this following code war removed
+        this.phones = Phone.query();
+
+        // $http.get('phones/phones.json').then(function (response) {
+        //  self.phones = response.data.slice(0, 5);
+        // });
       }
     ]
   });
